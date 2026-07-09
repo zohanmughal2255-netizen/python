@@ -15,9 +15,8 @@ This project builds and compares **Decision Tree** and **Random Forest** machine
 | Random Forest | 0.999 | 0.999 |
 
 ### Visualizations
-*(Note: Upload your images to the repo and link them here)*
-![Feature Importance](results/feature_importance.png)
-![Confusion Matrix](results/confusion_matrix.png)
+https://github.com/zohanmughal2255-netizen/python/blob/main/project/results/confusion_matrix.png
+
 
 ## What I'd Do Differently
 - **Data Balancing:** Given the high accuracy, I would further investigate potential data leakage or over-representation of specific traffic patterns in the dataset.
