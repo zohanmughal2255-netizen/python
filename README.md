@@ -1,0 +1,30 @@
+# Cybersecurity Intrusion Detection System (IDS)
+
+## Overview
+This project builds and compares **Decision Tree** and **Random Forest** machine learning models to detect network intrusions. Using the **CIC-IDS2017** dataset, we classify network traffic to identify potential security threats.
+
+## Repository Structure
+- `data/`: Contains the CIC-IDS2017 parquet files.
+- `notebook/`: Jupyter notebook containing EDA, model training, and evaluation.
+- `results/`: Contains generated visualizations (Confusion Matrix & Feature Importance).
+
+## Key Results
+| Model | Accuracy | F1-Score |
+| :--- | :--- | :--- |
+| Decision Tree | 0.992 | 0.991 |
+| Random Forest | 0.999 | 0.999 |
+
+### Visualizations
+https://github.com/zohanmughal2255-netizen/python/blob/main/project/results/confusion_matrix.png
+https://github.com/zohanmughal2255-netizen/python/blob/main/project/results/feature_importance.png
+https://github.com/zohanmughal2255-netizen/python/blob/main/project/results/heatmap.png
+
+## What I'd Do Differently
+- **Data Balancing:** Given the high accuracy, I would further investigate potential data leakage or over-representation of specific traffic patterns in the dataset.
+- **Advanced Tuning:** Use `GridSearchCV` to optimize hyperparameters beyond default settings.
+
+## How to Run
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
