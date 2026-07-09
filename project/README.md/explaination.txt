@@ -16,6 +16,7 @@ This project builds and compares **Decision Tree** and **Random Forest** machine
 
 ### Visualizations
 https://github.com/zohanmughal2255-netizen/python/blob/main/project/results/confusion_matrix.png
+https://github.com/zohanmughal2255-netizen/python/blob/main/project/results/feature_importance.png
 
 
 ## What I'd Do Differently
